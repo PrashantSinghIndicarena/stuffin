@@ -1,0 +1,74 @@
+#ride-landing-page-two {
+    width: 100vw;
+    padding: 10vh 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+}
+
+#ride-landing-page-two div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+#ride-landing-page-two div img {
+    width: 6vw;
+}
+
+#ride-landing-page-two div p {
+    font-size: 1.1vw;
+    color: #1e1e1e;
+}
+
+@media(max-width:600px){
+    #ride-landing-page-two {
+        margin-bottom: 12vh;
+        width: 100vw;
+        padding:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8vw;
+    }
+    
+    #ride-landing-page-two div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    
+    #ride-landing-page-two div img {
+        width: 15vw;
+    }
+    
+    #ride-landing-page-two div p {
+        color: #505050;
+        text-align: center;
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 6vw;
+    }
+}
+@media(min-width: 1920px) {
+    #ride-landing-page-two {
+        display: inline-flex;
+        padding: 110px 368px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ride-landing-page-two div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    
+}

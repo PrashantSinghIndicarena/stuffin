@@ -1,0 +1,137 @@
+#signup-landing-page {
+    position: relative;
+    background-image: url('../../assets/Rectangle-9.svg');
+    background-position: center; 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.20);
+    width: 100vw;
+    height: 75vh;
+    margin-top: 5vh;
+    padding: 0 1.4vw;
+    display: flex;
+    gap: 4vw;
+    color: #fff;
+    align-items: center;
+    text-align:center;
+    margin-bottom: 100vh;
+}
+#signup-landing-page h1{
+    margin-top: -18vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size:  4vw;
+   
+}
+#signup-box {
+    position: absolute;
+    top: 34vh;
+    width: 97vw;
+    /* align-items: center; */
+    background: #fff;
+    border: 1px solid orange;
+    overflow: hidden;
+    /* height: 30vh; */
+}
+#signup-box #heading {
+    color: #03736d;
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding: 2vh ;
+    /* word-spacing: 1vw; */
+}
+#partner-registraion {
+    width: 100%;
+    display: flex;
+    color: #696969;
+  
+}
+#partner-registraion #left {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#partner-registraion #left p {
+    color: #696969;
+    word-spacing: 0;
+    font-size: 1vw;
+}
+#partner-registraion #left p:first-child {
+    color: #03736d;
+} 
+#partner-registraion #registration-details {
+    width: 85%;
+    background: #f4f4f4;
+    display: flex;
+}
+#partner-registraion #registration-details #middle {
+    width: 50%;
+    display: flex;
+    padding-left: 4vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+    padding: 2vh 4vw;
+}
+#partner-registraion #registration-details #middle p{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+span {
+    color: red;
+}
+#partner-registraion #registration-details #middle input {
+    padding: 1vh 2vw;
+    border-radius: .6vw;
+    border: 1px solid #696969;
+    width: 25vw;
+    height: 6vh;
+    font-size: 1vw;
+}
+#partner-registraion #registration-details #middle img {
+    width: 100%;
+    margin-top: 2vh;
+}
+#partner-registraion #registration-details #right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#partner-registraion #registration-details #right input{
+    width: 25vw;
+    padding: 2vh 2vw;
+    /* margin-bottom: 3vh; */
+    border: 1px solid #696969;
+    border-radius: .5vw;
+}
+ #right  #working-days {
+    display: flex;
+    align-items: center;
+    gap: 1.4vw;
+    width: 28vw;
+    border: 1px solid #696969;
+    border-radius: .5vw;
+    padding: 0vh 2vw;
+}
+ #working-days input {
+    border:none;
+    width:4vw;
+}
+#working-days #day {
+    background: #fff;
+}
+#right  #working-days hr {
+    height: 4vh;
+}
+#working-days input, p {
+    /* border-right: 1px solid #696969; */
+    
+    font-size: 1vw;
+}
+h6 {
+    font-size: 1vw;
+    font-weight: 400;
+} 
+
+  

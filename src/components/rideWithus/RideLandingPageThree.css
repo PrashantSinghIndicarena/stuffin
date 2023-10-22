@@ -1,0 +1,132 @@
+#ride-landing-page-three {
+    width: 100vw;
+    padding: 6vh 6vw;
+}
+
+#ride-landing-page-three-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5vw;
+    border-radius: 16px;
+    border: 5px solid rgba(3, 115, 109, 0.20);
+    background: #FFF;
+    box-shadow: 0px 0px 32.28247px -7.06179px rgba(0, 0, 0, 0.20);
+    padding: 4vh 4vw;
+
+}
+#ride-landing-page-three-container-left {
+    width: 50%;
+}
+#ride-landing-page-three-container-left img {
+    width: 30vw;
+}
+
+#container-heading {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+#ride-landing-page-three-container-right {
+     display: flex;
+     flex-direction: column;
+     gap: 2vw;
+}
+#ride-landing-page-three-container-right h1 {
+    font-size: 2vw;
+}
+#ride-landing-page-three-container-right h1 span{
+    color: #03736d;
+}
+#container-heading span{
+    font-size: 0.8vw;
+    padding: 1vh 0.8vw;
+    border: .1vw solid #03736d;
+    border-radius: 50%;
+    color: #03736d;
+}
+#container-heading h6 {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+#ride-landing-page-three-container-right button {
+    background: #03736d;
+    border: none;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 10vw;
+    color: #fff;
+    font-size: 1vw;
+    margin-top: 1.25vh;
+}
+#ride-landing-page-three-container-right button a {
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+@media(max-width: 600px){
+    #ride-landing-page-three {
+        width: 100vw;
+        padding: 1vw;
+    }
+    
+    #ride-landing-page-three-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 5vw;
+        border-radius: 16px;
+        border: 5px solid rgba(3, 115, 109, 0.20);
+        background: #FFF;
+        box-shadow: 0px 0px 32.28247px -7.06179px rgba(0, 0, 0, 0.20);
+        padding: 1vw;
+    
+    }
+    #ride-landing-page-three-container-left {
+        width: 100%;
+    }
+    #ride-landing-page-three-container-left img {
+        width: 100%;
+    }
+    
+    #container-heading {
+        display: flex;
+        gap: 4vw;
+    }
+    #ride-landing-page-three-container-right {
+         display: flex;
+         flex-direction: column;
+         gap: 4vw;
+         width: 100%;
+    }
+    #ride-landing-page-three-container-right h1 {
+        font-size: 9vw;
+        text-align: center;
+    }
+    #container-heading span{
+        font-size: 2.8vw;
+        font-weight: 500;
+        padding: 1.5vh 2vw;
+        border: .1vw solid #03736d;
+        border-radius: 50%;
+        color: #03736d;
+        margin-left: 12vw;
+    }
+    #container-heading h6 {
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    #ride-landing-page-three-container-right button {
+        background: #03736d;
+        border: none;
+        border-radius: 1vw;
+        padding: 3vw;
+        width: 30vw;
+        color: #fff;
+        font-size: 4vw;
+        margin: 2.25vh;
+        margin-left: 33%;
+    }
+}

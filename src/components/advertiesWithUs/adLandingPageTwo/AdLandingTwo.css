@@ -1,0 +1,128 @@
+#add-landing-page-two {
+    width: 100vw;
+    padding: 11vh 8.35vw;
+    display: flex;
+}
+#add-landing-page-two-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+}
+#add-landing-page-two-left-heading {
+    line-height: 2vw;
+}
+#add-landing-page-two-left-heading h1 {
+     font-size: 2.5vw ;
+     font-weight: 700;
+     color: #2d2d2d;
+}
+#add-landing-page-two-left-heading span {
+    color: #03736d;
+}
+#add-landing-page-two-left-heading p {
+    margin-top: 3.4vh;
+    font-size: 1.2vw ;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+#add-landing-page-two-left-points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw
+
+}
+#icon img {
+    width: 3vw;
+}
+#description h2 {
+    color: #03736d;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+#description p {
+    font-size: 1vw;
+    color: #2d2d2d;
+    font-weight: 400;
+    margin-top: 1vh;
+    line-height: 1.8vw;
+}
+#add-landing-page-two-right {
+    width: 50%;
+}
+
+#add-landing-page-two-right img {
+    width: 100%;
+}
+@media(max-width: 600px) {
+    #add-landing-page-two {
+        width: 100vw;
+        padding: 2vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #add-landing-page-two-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1.5vh;
+    }
+    #add-landing-page-two-left-heading {
+        line-height: 2vw;
+    }
+    #add-landing-page-two-left-heading h1 {
+         font-size: 9.4vw ;
+         font-weight: 600;
+         color: #2d2d2d;
+         font-style: normal;
+         line-height: 140%;
+    }
+    #add-landing-page-two-left-heading span {
+        color: #03736d;
+    }
+    #add-landing-page-two-left-heading p {
+        margin-top: 3.4vh;
+        font-size: 3.8vw ;
+        font-weight: 400;
+        color: #2d2d2d;
+        line-height: 7.6vw;
+    }
+    #add-landing-page-two-left-points {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8vh;
+        gap: 4vw
+    
+    }
+    #icon img {
+        width: 18.6vw;
+    }
+    #description h2 {
+        color: #03736d;
+        font-size: 4.8vw;
+        font-weight: 500;
+        line-height: normal;
+        text-transform:capitalize ;
+        text-align: center;
+    }
+    #description p {
+        font-size: 3.5vw;
+        color: #2d2d2d;
+        font-weight: 400;
+        margin-top: 1vh;
+        font-style: normal;
+        line-height: 7.8vw;
+        text-align: center;
+    }
+    #add-landing-page-two-right {
+        width: 100%;
+    }
+    
+    #add-landing-page-two-right img {
+        width: 100%;
+    }
+}

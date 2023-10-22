@@ -1,0 +1,57 @@
+#ad-landing-page-three {
+    width: 100vw;
+    padding: 4vh 7vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+#ad-landing-page-three-left {
+    width: 40%;
+}
+#ad-landing-page-three-left h1 {
+    font-size: 2vw;
+}
+#ad-landing-page-three-left span {
+    color: #03736d;
+}
+#ad-landing-page-three-left p {
+    margin-top: 1vh;
+    font-size: 1.1vw;
+}
+#ad-landing-page-three-right {
+    border: 16px;
+    border: 5px solid rgba (3, 115, 109, 0.20);
+    background: #fff;
+    box-shadow: 0px 0px 32.28247px -7.06179px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    width: 25vw;
+    padding: 4vh 0vw;
+}
+#ad-landing-page-three-right p {
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: #2d2d2d;
+
+}
+#input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 4vh 2vw;
+
+}
+#input-box input {
+    padding: 1.6vh 1vw;
+    border: 1px solid #03736d;
+    border-radius: .3vw;
+    font-size: .9vw;
+}
+#input-box button {
+    padding: .7vh 0;
+    border: none;
+    background: #03736d;
+    border-radius: .5vh;
+    color: #fff;
+    cursor: pointer;
+}

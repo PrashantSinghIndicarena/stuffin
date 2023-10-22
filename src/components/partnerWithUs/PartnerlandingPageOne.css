@@ -1,0 +1,203 @@
+#partner-landing-page-one {
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.20) 20.28%, rgba(93, 93, 93, 0.00) 96.66%), linear-gradient(0deg, #03736D 0%, #03736D 100%), #FFF;
+    margin-top: 3.5vw;
+    padding: 12vh 9vw;
+    width: 100vw;
+    display: flex;
+    gap: 8vw;
+    color: #fff;
+}
+
+#partner-landing-page-one-left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#partner-landing-page-one-left h1 {
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+#partner-landing-page-one-left p {
+    font-size: 1.1vw;
+}
+
+#partner-landing-page-one-left-button {
+    display: flex;
+    gap: 1vw;
+    margin-top: 3vh;
+}
+
+#partner-landing-page-one-left-button #first-btn {
+    background: #2d2d2d;
+    color: white;
+    font-size: 1vw;
+    padding: 3vh 3vw;
+    /* width: 7vw; */
+    border-radius: 1vw;
+    border: none;
+    text-transform: capitalize;
+}
+
+#partner-landing-page-one-left-button #second-btn {
+    background: #fff;
+    color: #03736d;
+    font-size: 1vw;
+    padding: 2vh 3vw;
+    border-radius: 1vw;
+    border: none;
+    text-transform: capitalize;
+}
+
+#partner-landing-page-one-right {
+    width: 40%;
+    display: flex;
+    gap: 2vw;
+    position: relative;
+}
+
+#partner-landing-page-one-right img {
+    width: 12vw;
+}
+
+#front-camera img {
+    width: 4.8vw;
+    margin-left: -25vw;
+    margin-top: .4vw;
+}
+
+#front-camera-2 img {
+    width: 4.8vw;
+    margin-left: -12.5vw;
+    margin-top: .4vw;
+}
+#partner-hero-container {
+    display: none;
+}
+
+@media(max-width: 600px) {
+    #partner-landing-page-one {
+        background: linear-gradient(100deg, rgba(255, 255, 255, 0.20) 20.28%, rgba(93, 93, 93, 0.00) 96.66%), linear-gradient(0deg, #03736D 0%, #03736D 100%), #FFF;
+        margin-top: 8.5vw;
+        padding: 0;
+        width: 100vw;
+        height: auto;
+    }
+
+
+    #partner-hero-container {
+        display: block;
+        margin: 10vh 0;
+    }
+
+    #partner-hero-image-container {
+        position: relative;
+        text-align: center;
+    }
+
+    #partner-hero-image-container img {
+        width: 30vw;
+    }
+
+    #partner-hero-subImage-container {
+        position: absolute;
+        left: 50%;
+        top: 16%;
+    }
+
+    #partner-hero-subImage-container img {
+        width: 25vw;
+    }
+
+    #partner-hero-text-container {
+        padding: 3vh;
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+    #partner-hero-text-container h5 {
+        font-size: 7vw;
+        color: #FFF;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    #partner-hero-text-container p {
+        width: 80vw;
+        font-size: 3.6vw;
+        color: #FFF;
+        font-style: normal;
+        line-height: 9vw;
+        font-weight: 400;
+        font-family: helvetica;
+    }
+
+    #mobile-view-first-btn {
+        width: 65vw;
+        height: 11vw;
+        border: none;
+        border-radius: 16px;
+        background: #2D2D2D;
+        color: #FFF;
+        font-size: 3.4vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 9vw;
+        text-transform: capitalize;
+        box-shadow: 2px 2px 15px 0px rgba(0, 48, 45, 0.80);
+    }
+    #mobile-view-second-btn {
+        width: 65vw;
+        height: 11vw;
+        color:#03736d;
+        border: none;
+        border-radius: 16px;
+        background: #FFF;
+        font-size: 3.4vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 9vw;
+        text-transform: capitalize;
+        box-shadow: 2px 2px 15px 0px rgba(0, 48, 45, 0.80);
+    }
+
+    #partner-landing-page-one-left {
+        display: none;
+    }
+
+    #partner-landing-page-one-right {
+        display: none;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    #partner-landing-page-one-left-button #first-btn {
+        display: flex;
+        width: 400px;
+        height: 80px;
+        padding: 20px 38px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #000;
+    }
+
+    #partner-landing-page-one-left-button #second-btn {
+        display: flex;
+        width: 400px;
+        height: 80px;
+        padding: 20px 38px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #FFF;
+
+    }
+}

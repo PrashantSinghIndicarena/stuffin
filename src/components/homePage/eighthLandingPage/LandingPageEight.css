@@ -1,0 +1,71 @@
+#landing-page-eight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    width: 82vw;
+    margin: 8vh 9vw;
+    padding-top: 4vh;
+    border-radius: 2vw;
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.20) 20.28%, rgba(93, 93, 93, 0.00) 96.66%), #03736D;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.25) inset;
+}
+#page-eight-left-sec {
+    position: relative;
+
+}
+#complicated-style{
+    width: 20vw;
+    /* height: 55vh; */
+}
+#page-eight-right-sec {
+    width: 60%;
+    display: flex;   
+    flex-direction: column;
+    gap: 1.7vh;
+    padding-right: 16vw;
+}
+#page-eight-right-sec h1 {
+    color: #fff;
+    font-size: 2.2vw;
+    font-weight: 700;
+}
+#page-eight-right-sec p {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #fff;
+}
+
+#download-source img {
+    width: 12vw;
+    margin-top: -4vh;
+    margin-left: 35%;
+}
+
+@media(max-width: 600px) {
+    #landing-page-eight {
+        width: 92vw;
+        padding: 3vh 0 0 0;
+        margin: 4vh 4vw 10vh 4vw;
+    }
+    #page-eight-right-sec {
+        width: 60%;
+        display: flex;   
+        flex-direction: column;
+        gap: 5vh;
+        padding-right: 16vw;
+    }
+    #page-eight-right-sec h1 {
+        color: #fff;
+        font-size: 4.6vw;
+        font-weight: 700;
+    }
+    #page-eight-right-sec p {
+        display: none;
+    }
+    #download-source img {
+        width: 20vw;
+ 
+    }
+
+}

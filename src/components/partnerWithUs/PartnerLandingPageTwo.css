@@ -1,0 +1,154 @@
+#partner-landing-page-two {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    padding: 8vh 0;
+}
+
+#partner-landing-page-two h1 {
+    font-size: 3vw;
+    color: #2d2d2d;
+}
+
+#partner-landing-page-two span {
+    color: #03736d;
+}
+
+#partner-landing-page-two p {
+    font-size: 1vw;
+    color: #505050;
+    text-align: center;
+}
+
+#stuffin-insights {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#stuffin-support {
+    display: flex;
+    align-items: center;
+    gap: 1.8vw;
+    padding: 2vh 2vw;
+    border-radius: .8vw;
+    border: 2px solid rgba(3, 115, 109, 0.20);
+    background: #fff;
+    box-shadow: 0px 0px 32.28247px -7.06179px rgba(0, 0, 0, 0.20);
+}
+
+#for-mobile-use {
+    display: flex;
+    gap: 1vw;
+}
+
+#stuffin-support p {
+    font-size: 1vw;
+    font-weight: 600;
+    margin-top: 1vh;
+}
+
+#stuffin-support-info h5 {
+    font-size: 1vw;
+    font-weight: 500;
+    color: #03737d;
+}
+
+#stuffin-support img {
+    width: 2.5vw;
+}
+
+@media(max-width: 600px) {
+    #partner-landing-page-two {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        align-items: center;
+        justify-content: center;
+        padding: 8vh 1vw;
+    }
+
+    #partner-landing-page-two h1 {
+        font-size: 10.3vw;
+        color: #2d2d2d;
+        text-align: center;
+    }
+
+    #partner-landing-page-two p {
+        font-size: 4vw;
+        color: #505050;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 7.5vw;
+    }
+
+    #stuffin-insights {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.6vw;
+    }
+
+    #stuffin-support {
+        display: flex;
+        align-items: center;
+        gap: 4vw;
+        padding: 3vh 4vw;
+        border-radius: 8px;
+        border: 2.5px solid rgba(3, 115, 109, 0.20);
+        background: #FFF;
+        box-shadow: 0px 0px 16.14124px -3.5309px rgba(0, 0, 0, 0.20);
+    }
+
+    #for-mobile-use {
+        display: flex;
+        gap: 4.6vw;
+
+    }
+
+    #stuffin-support p {
+        font-size: 2.4vw;
+        font-weight: 600;
+        margin-top: 1vh;
+        line-height: normal;
+    }
+
+    #stuffin-support-info h5 {
+        font-size: 3.6vw;
+        font-weight: 500;
+        color: #03737d;
+        margin-bottom: 1vw;
+    }
+
+    #stuffin-support img {
+        width: 7.5vw;
+    }
+}
+
+@media(min-width: 1920px) {
+    #stuffin-insights {
+        display: flex;
+        padding: 32px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+    }
+
+    #stuffin-support {
+        display: flex;
+        padding: 16px 32px;
+        align-items: center;
+        gap: 28px;
+        border-radius: 16px;
+        border: 5px solid rgba(3, 115, 109, 0.20);
+        background: #FFF;
+        box-shadow: 0px 0px 32.28247px -7.06179px rgba(0, 0, 0, 0.20);
+
+    }
+}

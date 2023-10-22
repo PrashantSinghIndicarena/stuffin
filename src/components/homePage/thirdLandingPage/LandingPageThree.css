@@ -1,0 +1,38 @@
+#landing-page-three {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2vh  6vw;
+    gap: 2vw;
+
+
+}
+#landing-page-three-image {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    
+}
+#landing-page-three-image img {
+    width: 35vw
+}
+#landing-page-three button {
+    border: none;
+    background-color: #03736d;
+    padding: 0;
+    border-radius: .5vw;
+    box-shadow: 2px 2px 15px 0px rgba(0, 48, 45, 0.40)
+}
+#landing-page-three button:hover {
+    transform: scale(1.1);
+    transition:ease all(0.3s);
+    cursor: pointer;
+}
+#landing-page-three button svg{
+    width: 3vw;
+}
+
+@media (max-width: 600px) {
+    
+}

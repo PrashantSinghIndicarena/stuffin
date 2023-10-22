@@ -1,0 +1,86 @@
+#landing-login-page {
+    position: relative;
+    background-image: url('./bgImage.png');
+    background-position: center; 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.20);
+    /* margin-top: .7em; */
+    width: 100vw;
+    height: 75vh;
+    margin-top: 5vh;
+    padding: 20vh 4vw;
+    display: flex;
+    gap: 4vw
+} 
+#logic-box #logic-box-heading {
+   font-size: 1.4vw;
+   margin-bottom: 1vh;
+}
+#login-left {
+  width: 70%;
+}
+#logic-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    width: 30%;
+    height: 45vh;
+    padding: 10vh 0;
+    background: #fff;
+    border-radius: .2vw;
+    box-shadow: 0 0 32.28247px -7.06179px rgba(0, 0, 0, .20);
+    color: #696969;
+
+}
+/* #placeholder{
+  color: #03736d
+} */
+#logic-box p {
+  font-size: 0.8vw;
+  /* color: #2d2d2d; */
+}
+#logic-box span {
+  color: #03736d;
+}
+#logic-box input{
+  padding: 1vh 1vw;
+  font-size: 1vw;
+  border: 1px solid #03736d;
+  border-radius: 0.6vw;
+  /* color: #03736d; */
+}
+
+#placeholder::placeholder {
+  color: #03736d;
+}
+#landing-login-page img {
+  width: 100%;
+
+}
+#login-box {
+  width: 30%;
+  /* color: #fff; */
+}
+#checkbox{
+  display: flex ;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: .6vw;
+  margin-left: -7vw;
+}
+#checkbox p {
+  font-size: .8vw;
+}
+button {
+  margin-top: 3vh;
+  padding: .8vw 6vw;
+  font-size: 1vw;
+  font-weight: 600;
+  background: #03736d;
+  color: #fff;
+  border: none;
+  border-radius: 0.4vw;
+  border-radius: 0.6vw;
+}

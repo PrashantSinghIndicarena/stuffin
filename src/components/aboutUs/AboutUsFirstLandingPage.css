@@ -1,0 +1,598 @@
+#about-landing-page {
+    width: 100vw;
+    padding: 6vh 8.35vw;
+}
+
+#about-landing-page-hero-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 4vw;
+}
+
+#about-landing-page-hero-container #left-hero,
+#right-hero {
+    width: 50%;
+}
+
+#left-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#left-hero h1 {
+    font-size: 4vw;
+    color: #2d2d2d;
+    font-weight: 700;
+}
+
+#left-hero h1 span {
+    color: #03736d;
+}
+
+#left-hero p {
+    font-size: 1.1vw;
+    letter-spacing: 0.151px;
+    color: #2D2D2D;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#read-more-aboutHero {
+    width: 10vw;
+    height: auto;
+    border: none;
+    border-radius: .5vw;
+    background-color: #03736d;
+    margin-top: 2vh;
+    font-size: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1vw 0;
+    color: #fff;
+}
+
+#read-more-aboutHero img {
+    color: #fff;
+    width: 1vw;
+}
+
+#right-hero img {
+    width: 40vw;
+}
+
+#about-landing-page-first-container {
+    margin-top: 10vw;
+    display: flex;
+    gap: 10vw;
+}
+
+#about-landing-page-first-container img {
+    width: 30vw;
+}
+
+#about-landing-page-first-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#about-landing-page-first-container div h1 {
+    font-size: 4vw;
+    color: #2d2d2d;
+}
+
+#about-landing-page-first-container div span {
+    color: #03736d;
+}
+
+#about-landing-page-first-container div h4 {
+    font-size: 1.8vw;
+    color: #2d2d2d;
+}
+
+#about-landing-page-first-container div p {
+    font-size: 1.04vw;
+    color: #2d2d2d;
+    font-weight: 400;
+    line-height: 2vw;
+    text-transform: capitalize;
+}
+
+#about-landing-page-second-container {
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+    width: 100%;
+   
+}
+#the-mission {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+ #the-mission h1 {
+    font-size: 4vw;
+    color: #2d2d2d;
+}
+#the-mission span {
+    color: #03736d;
+}
+
+#the-mission p {
+    font-size: 1.04vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    line-height: 2vw;
+    text-transform: capitalize;
+}
+/* Add this to your CSS (AboutUsFirstLandingPage.css) */
+ul {
+    list-style-position: outside; /* Place the list markers inside the list item's content area */
+    padding-left: 20px; /* Adjust the padding as needed */
+  }
+  
+  ul li {
+    margin-bottom: 10px; /* Add margin between list items if needed */
+  }
+  
+
+#the-mission ul li {
+    font-size: 1.04vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    line-height: 2vw;
+    text-transform: capitalize;
+}
+#the-mission h4 {
+    display: none;
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-left: 2vw;
+}
+#the-mission-img  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#the-mission-img img {
+    width: 30vw;
+}
+#the-mission-img h5 {
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: #2D2D2D;
+}  
+
+#about-landing-page-second2-container {
+    width: 100%;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+
+}
+#the-vission{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#the-vission img {
+    width: 30vw;
+}
+#the-vission h4 {
+    display: block;
+    font-size: 1.1vw;
+    color: #2D2D2D;
+    letter-spacing: 0.151px;
+    font-weight: 400;
+}
+#the-vission-img {
+    width: 50%;
+}
+#the-vission-img h1 {
+    font-size: 4vw;
+    color: #2d2d2d;
+}
+
+#the-vission-img span {
+    color: #03736d;
+}
+
+#the-vission-img p {
+    font-size: 1.04vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    line-height: 2vw;
+    text-transform: capitalize;
+}
+
+
+#the-vission-img ul li {
+    font-size: 1.04vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    line-height: 2vw;
+    text-transform: capitalize;
+}
+#the-vission-img h5 {
+    display: none;
+    font-size: 1.1vw;
+    color: #2D2D2D;
+    letter-spacing: 0.151px;
+    font-weight: 400;
+}
+
+#about-landing-page-third-heading {
+    text-align: center;
+    margin: 6vh 0;
+}
+
+#about-landing-page-third-heading {
+    font-size: 4vw;
+    color: #2d2d2d;
+}
+
+#about-landing-page-third-heading span {
+    color: #03736d;
+}
+
+#about-landing-page-third-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+
+}
+
+#team-info img {
+    width: 15vw;
+}
+
+#team-info div {
+    display: flex;
+    align-items: center;
+    /* gap: 4vw; */
+}
+
+#team-info  span {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+#team-info div p {
+    font-size: 1vw;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#icon-img {
+    display: flex;
+    gap: .5vw;
+    margin-left: 6vw;
+}
+#icon-img img {
+    width: 1vw;
+}
+
+@media (max-width: 600px) {
+    #about-landing-page {
+        width: 100vw;
+        padding: 2vh 2vw;
+        align-items: center;
+        margin-bottom: 5vh;
+    
+    }
+
+    #about-landing-page-hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        gap: 4vw;
+    }
+
+    #about-landing-page-hero-container #left-hero,
+    #right-hero {
+        width: 100%;
+    }
+
+    #left-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    #left-hero h1 {
+        font-size: 9vw;
+        color: #2d2d2d;
+        font-weight: 700;
+    }
+
+    #left-hero h1 span {
+        color: #03736d;
+    }
+
+    #left-hero p {
+        color: #2D2D2D;
+        /* font-family: Poppins; */
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #read-more-aboutHero {
+        width: 25vw;
+        margin-left: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: none;
+        background: #03736d;
+        padding: 2.5vw 2vw;
+        border-radius: 1.1vw;
+        color: #fff;
+        font-weight: 500;
+        font-size: 3vw;
+    }
+    #read-more-aboutHero img {
+        color: #fff;
+        width: 2.5vw;
+    }
+
+    #right-hero img {
+        width: 95vw;
+    }
+
+    /* 2nd container media query */
+
+    #about-landing-page-first-container {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+    }
+    
+    #about-landing-page-first-container img {
+        width: 95vw;
+    }
+    
+    #about-landing-page-first-container div {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        /* width: 100vw; */
+    }
+    
+    #about-landing-page-first-container div h1 {
+        font-size: 9vw;
+        color: #2d2d2d;
+    }
+    
+    
+    #about-landing-page-first-container div h4 {
+        font-size: 4.8vw;
+        color: #2d2d2d;
+    }
+    
+    #about-landing-page-first-container div p {
+        font-size: 4vw;
+        color: #2d2d2d;
+        font-weight: 400;
+        text-transform: capitalize;
+        letter-spacing: 0.151;
+        line-height: normal;
+    }
+    #about-landing-page-second-container {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 6vw;
+        width: 100%;
+       
+    }
+    #the-mission {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+     #the-mission h1 {
+        font-size: 9.3vw;
+        color: #2d2d2d;
+        font-weight: 700;
+    }
+    #the-mission span {
+        color: #03736d;
+    }
+    
+    #the-mission p {
+        font-size: 4vw;
+        font-weight: 500;
+        color: #2d2d2d;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    #the-mission ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+    #the-mission ul li {
+        font-size: 3vw;
+        font-weight: 400;
+        color: #2d2d2d;
+        line-height: normal;
+        text-transform: capitalize;
+
+    }
+    #the-mission h4 {
+        display: block;
+        font-size: 3vw;
+        font-weight: 400;
+        color: #2d2d2d;
+        line-height: normal;
+        text-transform: capitalize;
+        padding: 0;
+        margin-top: 3vh;
+    }
+    #the-mission-img  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    
+    #the-mission-img img {
+        width: 100%;
+    }
+    #the-mission-img h5 {
+        display: none;
+        font-size: 1.1vw;
+        font-weight: 400;
+        color: #2D2D2D;
+    }  
+    
+    #about-landing-page-second2-container {
+        width: 100%;
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6vw;
+    
+    }
+    #the-vission{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    #the-vission img {
+        width: 100%;
+    }
+    #the-vission h4 {
+        display: none;
+        font-size: 1.1vw;
+        color: #2D2D2D;
+        letter-spacing: 0.151px;
+        font-weight: 400;
+    }
+    #the-vission-img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4vh;
+    }
+    #the-vission-img h1 {
+        font-size: 9vw;
+        color: #2d2d2d;
+        font-weight: 700;
+    }
+    
+    #the-vission-img span {
+        color: #03736d;
+    }
+    
+    #the-vission-img p {
+        font-size: 4vw;
+        font-weight: 500;
+        color: #2d2d2d;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    
+    #the-vission-img ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+    #the-vission-img ul li {
+        font-size: 3vw;
+        font-weight: 400;
+        color: #2d2d2d;
+        line-height: normal;
+        text-transform: capitalize;
+        /* padding-left: 2vw; */
+    }
+    #the-vission-img h5 {
+        display: block;
+        font-size: 3vw;
+        color: #2D2D2D;
+        letter-spacing: 0.151px;
+        font-weight: 400;   
+        margin-top: 2vh; 
+    }
+    
+    #about-landing-page-third-heading {
+        text-align: center;
+        margin: 6vh 0;
+    }
+    
+    #about-landing-page-third-heading {
+        font-size: 9vw;
+        color: #2d2d2d;
+    }
+    
+    #about-landing-page-third-heading span {
+        color: #03736d;
+    }
+    
+    #about-landing-page-third-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8vw;
+    
+    }
+    
+    #team-info img {
+        width: 100vw;
+    }
+    
+    #team-info div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0.6vw;
+    }
+    
+    #team-info span {
+        font-size: 4vw;
+        font-weight: 400;
+        margin-top: 1vh;
+        padding-left: 1vw;
+    }
+    
+    #team-info div p {
+        font-size: 5.4vw;
+        font-weight: 500;
+        margin-top: 0;
+    }
+    
+    #icon-img {
+        display: flex;
+        gap: 4vw;
+    }
+    
+    #icon-img img {
+        width: 5vw;
+    }
+    
+}

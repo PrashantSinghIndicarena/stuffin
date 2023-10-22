@@ -1,0 +1,83 @@
+#add-landing-Page-one {
+     margin-top: 10vh;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 4vh 8.35vw;
+     gap: 4.5vw;
+}
+#add-landing-Page-one-left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#add-landing-Page-one-left h1 {
+    font-size: 3.5vw;
+    font-size: 700;
+    color: #1e1e1e;
+}
+#add-landing-Page-one-left p {
+    font-size: 2vw;
+    font-weight: 500;
+    color: #1e1e1e;
+
+}
+#down-circle-arrow {
+    display: none;
+}
+#add-landing-Page-one-right {
+    width: 35%;
+}
+#add-landing-Page-one-right img {
+    width: 30vw;
+}
+
+@media(max-width: 600px){
+    #add-landing-Page-one {
+     margin-top: 10vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: center;
+     padding: 2vw;
+     gap: 4.5vw;
+}
+#add-landing-Page-one-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+#add-landing-Page-one-left h1 {
+    font-size: 9.3vw;
+    font-weight: 700;
+    color: #1e1e1e;
+    font-style: normal;
+    line-height:normal ;
+}
+#add-landing-Page-one-left p {
+    font-size: 5.62vw;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-style: normal;
+    line-height: normal;
+}
+#down-circle-arrow {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 8vh 0; 
+}
+#down-circle-arrow img {
+    width: 10vw;
+}
+#add-landing-Page-one-right {
+    width: 100%;
+}
+#add-landing-Page-one-right img {
+    width: 100%;
+}
+}

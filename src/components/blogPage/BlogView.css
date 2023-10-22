@@ -1,0 +1,128 @@
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* Three equal columns */
+  grid-gap: 20px;
+  /* Adjust the gap between grid items as needed */
+}
+
+/* Define breakpoints for different screen sizes */
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+.blog-item {
+  /* Add styling for each blog item here */
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* You can customize the styling for each blog item */
+}
+.blog-item a {
+  text-decoration: none;
+  color:#2d2d2d ;
+}
+
+.blog-page {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* You may need to adjust the styles based on your design requirements */
+/* Add these styles to your BlogView.css or create a separate CSS file */
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.category-list span {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  /* border: 1px solid #ccc;
+  border-radius: 5px; */
+  color: gray;
+  font-family: helvetica;
+  transition: background-color 0.2s;
+}
+
+
+.category-list span.selected {
+  border-bottom: 2px solid grey;
+  /* Change the background color for the selected category */
+  color: black;
+  font-family: helvetica;
+}
+
+.blog-view-hero-section {
+  background-image: url('./Rectangle-5.svg');
+  position: center;
+  background-size: cover;
+  text-align: center;
+  height: 320px;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+.blog-view-hero-subsection img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 320px;
+  width: 100%;
+}
+
+.blog-view-hero-section h1 {
+  color: white;
+  filter: none;
+  font-size: 4vw;
+  z-index: 1;
+}
+.blog-details  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+.load-more-button {
+  margin-top: 4vh;
+  margin-left: 50%;
+  padding: 1.4vh 1vw;
+  border: none;
+  border-radius: 4px;
+  background: #03736D;
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+.load-more-button a {
+  text-decoration: none;
+}
+.blog-details p {
+  font-size: 1.1vw;
+}
+
+.blog-details span {
+  font-size: 1.1vw;
+  color: black;
+}
+.blog-details h3 {
+
+}
+

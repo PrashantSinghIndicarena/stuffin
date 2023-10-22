@@ -1,0 +1,130 @@
+#landing-page-six {
+    padding: 0vh 9vw;
+    width: 100vw;
+    margin: 5vw 0;
+  
+}
+#landing-page-six h1 {
+    color: #2d2d2d;
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+#landing-page-six span {
+    color: #03736d;
+}
+#landing-page-six-container {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    gap: 8vw;
+}
+#landing-page-six-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vh;
+    
+}
+
+
+#landing-page-six-left p {
+    font-size: 1.04vw;
+    font-weight: 400;
+    color: #2d2d2d;
+    /* line-height: 1.8vw; */
+}
+#landing-page-six-left a {
+    text-decoration: none;
+
+}
+#landing-page-six-left button {
+    width: 10vw;
+    height: auto;
+    border: none;
+    border-radius: .5vw;
+    background-color: #03736d; 
+    margin-top: 2vh;
+    font-size: 1.4vw;   
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    padding: 1vw 0;
+}
+#landing-page-six-left button span {
+    color: #fff;
+}
+#landing-page-six-left button img {
+    width: 1vw;
+}
+#landing-page-six-left button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: ease all(0.4sec);
+}
+#landing-page-six-right {
+    width: 50%;
+    margin-top: -2vw;
+
+}
+#landing-page-six-right img {
+    width: 100%;
+    margin-bottom: -6vh;
+}
+
+@media (max-width: 600px){
+    #landing-page-six {
+        padding: 1vh 3vw;
+        width: 100vw;   
+    }
+    #landing-page-six h1 {
+        font-size: 9.3vw;
+    }
+    #landing-page-six-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #landing-page-six-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1vh;
+    }
+    #landing-page-six-left p {
+        font-size: 3.6vw;
+        font-weight: 400;
+        color: #2d2d2d;
+        letter-spacing: 0.151px;
+    }
+    #landing-page-six-left button {
+        width: 30vw;
+        height: auto;
+        border: none;
+        border-radius: 2vw;
+        background-color: #03736d; 
+        margin-top: 2vh;
+        font-size: 3.5vw; 
+        font-weight: 500;  
+        display: flex;
+        align-items: center ;
+        justify-content: space-evenly;
+        padding: 3vw 2vw;
+    }
+    #landing-page-six-left button p {
+        color: #fff;
+
+    }
+    #landing-page-six-left button img {
+        width: 2.5vw;
+    }
+    #landing-page-six-right {
+        width: 100%;
+    }
+    #landing-page-six-right img {
+        width: 100%;
+    }
+
+}

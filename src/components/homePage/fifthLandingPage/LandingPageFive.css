@@ -1,0 +1,94 @@
+#landing-page-five {
+    /* margin-top: 4vh; */
+    padding: 2vh 6vw;
+    width: 100vw;
+}
+#landing-page-five h1 {
+    font-size: 3vw;
+    color: #2d2d2d;
+    font-weight: 700;
+    line-height: normal;
+}
+#landing-page-five span {
+    color: #03736d;
+}
+#user-review-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6vh 0;
+}
+#user-review-separate-container {
+    width: 50%; 
+    display: flex;
+    align-items: center;
+}
+#user-review-info img {
+    width: 40vw;
+}
+
+ #review-back-btn, #review-forward-btn{
+    width: 10vw;
+    background: #03736d;
+    border: none;
+    padding: 6px;
+    border-radius: 1.4vw;
+ } 
+#review-back-btn img,  #review-forward-btn img {
+    width: 2.5vw;
+    background: #03736d;
+} 
+
+@media (max-width: 600px){
+    #landing-page-five{
+        width: 100vw;
+        padding: 4vh 3vw;
+    }
+    #landing-page-five h1 {
+        font-size: 9.4vw;
+    }
+    #user-review-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    #user-review-seprate-container {
+        width: 90%;
+        align-items: center;
+        position: relative;
+        
+    }
+    #user-review-info img {
+        width: 90vw;
+    }   
+    #review-back-btn, #review-forward-btn{
+        background: #03736d;
+        border: none;
+        padding: 4px;
+        border-radius: 1.4vw;
+        align-items: center;
+     } 
+     #review-back-btn img,  #review-forward-btn img {
+        width: 5.5vw;
+        background: #03736d;
+    } 
+    #review-back-btn {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    
+      /* Position the backward button on the right side */
+      #user-review-container #user-review-separate-container #user-review-info #review-forward-btn {
+        position: absolute;
+        margin-right: 60px; 
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    
+  
+    .hide-on-mobile {
+        display: none;
+      }
+}

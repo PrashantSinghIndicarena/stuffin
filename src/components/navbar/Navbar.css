@@ -1,0 +1,119 @@
+#navbar {
+  background-color: #03736d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh 8.3vw;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 11;
+  font-family: helvetica;
+  box-shadow: 0px 4px 92px 0px rgba(0, 0, 0, 0.25);
+}
+
+#navbar svg {
+  width: 10vw;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+.nav-right-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  /* font-family: poppins;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; */
+
+}
+
+.nav-right-list a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+@media(max-width: 600px) {
+  #navbar {
+    width: 100vw;
+    background-color: #03736d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 11;
+    font-family: helvetica;
+    box-shadow: 0px 4px 92px 0px rgba(0, 0, 0, 0.25);
+  }
+  #navbar svg {
+    width: 20vw;
+  }
+
+  .hamburger-button {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    width: 10vw;
+  }
+  .hamburger-button  img {
+      width: 6vw;
+  }
+
+  .nav-right-list {
+    display: none;
+    flex-direction: column;
+   
+    gap: -1vh;
+    position: absolute;
+    top: 0%;
+    left:80vw;
+    background: #03736d;
+    padding: .4vw;
+    width: 20vw;
+    border-radius: 1vw;
+
+  }
+
+  .nav-right-list.active {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: -1vh;
+    position: absolute;
+    top: 100%;
+    left:80vw;
+    background: #03736d;
+    padding: .4vw;
+    width: 20vw;
+    border-radius: 1vw;
+  }
+  .nav-right-list a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2.4vw;
+    font-weight: 500;
+  }
+
+}
+ @media(min-width: 1920px) {
+  #navbar {    
+    padding: 2vh 14.82vh;
+  }
+} 
+

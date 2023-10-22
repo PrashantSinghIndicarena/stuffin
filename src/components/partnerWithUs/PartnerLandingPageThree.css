@@ -1,0 +1,174 @@
+#partner-landing-page-three {
+    background-image: url('./traditional-indian-flatbreads-with-fresh-herbs-gray-background\ 1.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    padding: 8vh 0;
+}
+
+#partner-landing-page-three h2 {
+    font-size: 2.4vw;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+
+#partner-landing-page-three span {
+    color: #03736d;
+}
+
+#steps-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+#step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.7vw;
+    gap: .8vh;
+    border-radius: .8vw;
+    border: 5px solid rgba(3, 115, 109, 0.20);
+    background: #fff;
+    box-shadow: 0px 0px 32.28247px -7.06179px rgba(0, 0, 0, 0.20);
+
+}
+
+#step img {
+    width: 5vw;
+}
+
+#step span {
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+
+#step h6 {
+    font-size: 1vw;
+    font-weight: 400;
+    color: #2d2d2d;
+
+}
+
+#step p {
+    font-size: .8vw;
+    font-weight: 400;
+    text-align: center;
+    color: #4F4F56;
+}
+
+@media(max-width:600px) {
+    #partner-landing-page-three {
+        background-image: url('./traditional-indian-flatbreads-with-fresh-herbs-gray-background\ 1.svg');
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5vh;
+        padding: 8vh 0;
+    }
+
+    #partner-landing-page-three h2 {
+        font-size: 9.6vw;
+        font-weight: 600;
+        color: #2d2d2d;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    #partner-landing-page-three span {
+        color: #03736d;
+    }
+
+    #steps-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 85vw;
+        padding: 4vh 2.3vw;
+        gap: 5vw;
+    }
+
+    #step {
+        display: flex;
+        padding: 6vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 6.75px;
+        align-self: stretch;
+        border-radius: 12px;
+        border: 3.75px solid rgba(3, 115, 109, 0.20);
+        background: #FFF;
+        box-shadow: 0px 0px 24.21186px -5.29634px rgba(0, 0, 0, 0.20);
+
+    }
+
+    #step img {
+        width: 16vw;
+    }
+
+    #step span {
+        font-size: 4.4vw;
+        color: #2D2D2D;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #step h6 {
+        font-size: 3.6vw;
+        font-weight: 400;
+        color: #2d2d2d;
+        text-align: center;
+        line-height: normal;
+        font-style: normal;
+
+    }
+
+    #step p {
+        color: #4F4F56;
+        text-align: center;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 4vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    #steps-container {
+        display: flex;
+        width: 1600px;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    #step {
+        display: flex;
+        height: 373px;
+        padding: 32px;
+        flex-direction: column;
+        align-items: center;
+        gap: 9px;
+        border-radius: 16px;
+        border: 5px solid rgba(3, 115, 109, 0.20);
+        background: #FFF;
+        box-shadow: 0px 0px 32.28247px -7.06179px rgba(0, 0, 0, 0.20);
+    }
+
+}
